@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "autoname": "Pent.####",
+ "creation": "2018-03-26 17:16:04.390797",
+ "description": "penalty_type",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "penalty_type",
+  "from_date",
+  "to_date",
+  "column_break_3",
+  "section_break_6",
+  "penalties_settings_data",
+  "penalties_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "penalty_type",
+   "fieldtype": "Link",
+   "label": "Penalty Type",
+   "options": "Penalty Type"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "penalties_settings_data",
+   "fieldtype": "Heading",
+   "label": "Penalties Settings Data"
+  },
+  {
+   "fieldname": "penalties_data",
+   "fieldtype": "Table",
+   "label": "Penalties Data",
+   "options": "Penalties Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-14 00:16:05.969002",
+ "modified_by": "Administrator",
+ "module": "Alphadeem Customization",
+ "name": "Penalties Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "penalty_type",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "penalty_type",
+ "track_changes": 1
+}

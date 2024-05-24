@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "autoname": "filed:social_insurance_corporation",
+ "creation": "2018-04-22 16:58:33.334775",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "social_insurance_corporation",
+  "address",
+  "mobile",
+  "column_break_4",
+  "telephone",
+  "status",
+  "responsible"
+ ],
+ "fields": [
+  {
+   "fieldname": "social_insurance_corporation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Social Insurance Corporation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Responsible",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-28 15:43:55.624478",
+ "modified_by": "Administrator",
+ "module": "Alphadeem Customization",
+ "name": "Social Insurance Corporation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

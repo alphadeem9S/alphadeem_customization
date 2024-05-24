@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "creation": "2018-04-02 18:38:30.170229",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "injury_date",
+  "injury_location",
+  "injury_type",
+  "treatment_start_date",
+  "treatment_end_date",
+  "treatment_location",
+  "description",
+  "document"
+ ],
+ "fields": [
+  {
+   "fieldname": "injury_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Injury Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "injury_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Injury Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "injury_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Injury Type",
+   "options": "Injury Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "treatment_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Treatment Start Date"
+  },
+  {
+   "fieldname": "treatment_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Treatment End Date"
+  },
+  {
+   "fieldname": "treatment_location",
+   "fieldtype": "Data",
+   "label": "Treatment Location"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "document",
+   "fieldtype": "Attach",
+   "label": "Document"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-28 15:44:24.929885",
+ "modified_by": "Administrator",
+ "module": "Alphadeem Customization",
+ "name": "Work Injury",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

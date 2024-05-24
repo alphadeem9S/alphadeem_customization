@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include alphadeem_customization *.css
+recursive-include alphadeem_customization *.csv
+recursive-include alphadeem_customization *.html
+recursive-include alphadeem_customization *.ico
+recursive-include alphadeem_customization *.js
+recursive-include alphadeem_customization *.json
+recursive-include alphadeem_customization *.md
+recursive-include alphadeem_customization *.png
+recursive-include alphadeem_customization *.py
+recursive-include alphadeem_customization *.svg
+recursive-include alphadeem_customization *.txt
+recursive-exclude alphadeem_customization *.pyc
